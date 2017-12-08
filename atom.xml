@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-08T09:13:29.155Z</updated>
+  <updated>2017-12-08T10:22:46.250Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="http://yoursite.com/2017/12/08/vue-js%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/12/08/vue-js学习笔记/</id>
     <published>2017-12-08T09:13:29.000Z</published>
-    <updated>2017-12-08T09:13:29.155Z</updated>
+    <updated>2017-12-08T10:22:46.250Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="vue.js" scheme="http://yoursite.com/tags/vue-js/"/>
     
   </entry>
   
