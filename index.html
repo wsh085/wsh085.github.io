@@ -259,16 +259,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
-          </a>
-        </li>
-      
 
       
     </ul>
@@ -372,18 +362,7 @@
 
       
         
-          <h3 id="数据的动态变化"><a href="#数据的动态变化" class="headerlink" title="数据的动态变化"></a>数据的动态变化</h3><pre><code>vue响应式的数据动态显示变化是通过在Vue实例被创建时，向vue的响应系统中加入了其data对象中能找到的属性，也就是说一开始有的才行，后面添加的属性没有响应式，当这些响
-</code></pre><p>应式的数据发生变化时，视图会进行重新渲染，如果不知道后面会不会加入数据怎么办呢？没关系，预留字段，设置为空或不存在，先占个坑嘛</p>
-<h3 id="实例的生命周期"><a href="#实例的生命周期" class="headerlink" title="实例的生命周期"></a>实例的生命周期</h3><pre><code>每个生命周期都会有相应的钩子函数，钩子函数的this指向调用它的vue实例:
-- beforeCreate:在实例被创建之前执行
-- created:在实例被创建之后执行
-- beforeMount:开始挂载编译生成的html到对应位置
-- mounted:挂载编译生成html完成，可以进行ajax请求，数据初始化（在整个生命周期中只执行一次）
-- beforeUpdate:数据发生变化要重新渲染DOM之前
-- updated:数据发生变化，重新渲染DOM完成
-- beforeDestroy：当 vm.$destroy() 被调用时
-- destroyed: 销毁完成之后
-</code></pre>
+          <h3 id="数据的动态变化"><a href="#数据的动态变化" class="headerlink" title="数据的动态变化"></a>数据的动态变化</h3><p>​    vue响应式的数据动态显示变化是通过在Vue实例被创建时，向vue的响应系统中加入了其data对象中能找到的属性，也就是说一开始有的才行，后面添加的属性没有响应式，当这些响<br>应式的数据发生变化时，视图会进行重新渲染，如果不知道后面会不会加入数据怎么办呢？没关系，预留字段，设置为空或不存在，先占个坑嘛<br>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/12/08/vue-js学习笔记/#more" rel="contents">
