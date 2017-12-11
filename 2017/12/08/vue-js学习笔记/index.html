@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="魏皇叔">
 <meta property="og:description" content="数据的动态变化vue响应式的数据动态显示变化是通过在Vue实例被创建时，向vue的响应系统中加入了其data对象中能找到的属性，也就是说一开始有的才行，后面添加的属性没有响应式，当这些响 应式的数据发生变化时，视图会进行重新渲染，如果不知道后面会不会加入数据怎么办呢？没关系，预留字段，设置为空或不存在，先占个坑嘛 实例的生命周期每个生命周期都会有相应的钩子函数，钩子函数的this指向调用它的vue">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-11T08:22:02.674Z">
+<meta property="og:updated_time" content="2017-12-11T08:31:38.167Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vue.js学习笔记">
 <meta name="twitter:description" content="数据的动态变化vue响应式的数据动态显示变化是通过在Vue实例被创建时，向vue的响应系统中加入了其data对象中能找到的属性，也就是说一开始有的才行，后面添加的属性没有响应式，当这些响 应式的数据发生变化时，视图会进行重新渲染，如果不知道后面会不会加入数据怎么办呢？没关系，预留字段，设置为空或不存在，先占个坑嘛 实例的生命周期每个生命周期都会有相应的钩子函数，钩子函数的this指向调用它的vue">
@@ -381,7 +381,8 @@
 - updated:数据发生变化，重新渲染DOM完成
 - beforeDestroy：当 vm.$destroy() 被调用时
 - destroyed: 销毁完成之后
-</code></pre><h3 id="模板语法"><a href="#模板语法" class="headerlink" title="模板语法"></a>模板语法</h3><pre><code>在底层的实现上，vue将模板编译成虚拟DOM渲染函数，结合响应系统，在应用状态改变时,vue能够智能地计算出重新渲染组件的最小代价并应用到DOM操作上
+</code></pre><a id="more"></a>
+<h3 id="模板语法"><a href="#模板语法" class="headerlink" title="模板语法"></a>模板语法</h3><pre><code>在底层的实现上，vue将模板编译成虚拟DOM渲染函数，结合响应系统，在应用状态改变时,vue能够智能地计算出重新渲染组件的最小代价并应用到DOM操作上
 - 文本：双大括号
 - HTML：v-html指令
 - 使用JavaScript表达式：每个绑定都只能包含单个表达式
